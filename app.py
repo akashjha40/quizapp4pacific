@@ -6,8 +6,9 @@ from flask import Flask, render_template, request, jsonify
 
 # --- App Setup ---
 app = Flask(__name__)
-app.secret_key = 'your_very_secret_key'  # Replace with a secure, random key
-DB_PATH = os.path.join(os.path.dirname(__file__), 'scores.db')
+# Allow configuring secret key and DB path via environment variables
+app.secret_key = os.environ.get('SECRET_KEY', 'your_very_secret_key')
+DB_PATH = os.environ.get('DB_PATH', os.path.join(os.path.dirname(__file__), 'scores.db'))
 
 # --- Helper Functions ---
 def get_teams():
@@ -147,4 +148,8 @@ def public_view():
 # --- Main Execution ---
 if __name__ == '__main__':
     init_db()  # Initialize DB on startup
-    app.run(debug=True, port=5000)
+    host = os.environ.get('HOST', '0.0.0.0')
+    port = int(os.environ.get('PORT', '5000'))
+    debug_env = os.environ.get('FLASK_DEBUG', '0')
+    debug = True if str(debug_env).lower() in ('1', 'true', 'yes') else False
+    app.run(host=host, port=port, debug=debug)
