@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Competition 2025</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    .title-font { font-family: 'Bebas Neue', sans-serif; }
+    .glass-effect {
+      background: rgba(15, 23, 42, 0.7);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(51, 65, 85, 0.3);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    }
+    #question-area .question-text { color: white; font-size: 1.25rem; margin-bottom: 1.5rem; display: block; }
+    .option-container {
+      background: rgba(1, 39, 106, 0.832);
+      -webkit-backdrop-filter: blur(8px);
+      backdrop-filter: blur(8px);
+      border-radius: 0.5rem;
+      border: 1px solid rgba(51, 65, 85, 0.3);
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+    }
+    .glass-card { background: rgba(30, 41, 59, 0.75); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); border: 1px solid rgba(51, 65, 85, 0.2); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2); color: white; }
+    .glass-panel { background: rgba(15, 23, 42, 0.65); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border: 1px solid rgba(51, 65, 85, 0.25); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15); color: white; }
+    body { background-image: url('/static/clouds-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; min-height: 100vh; }
+    select, button { transition: all 0.3s ease; }
+    select:hover, button:hover { transform: translateY(-1px); }
+    select, select option { color: black; font-weight: 600; }
+  </style>
+</head>
+<body class="min-h-screen bg-white">
+  <div class="max-w-4xl mx-auto p-6 rounded-xl mt-8 glass-panel">
+    <h1 class="text-4xl title-font mb-6 text-white text-center tracking-wider">Quiz Competition 2025<br><span class="text-2xl text-blue-200">Pacific Institute of Technology</span></h1>
+    <div id="host-controls" class="mb-6">
+      <div class="grid grid-cols-3 gap-4 p-6 rounded-xl glass-card">
+        <div>
+          <label class="block font-semibold mb-1 text-blue-100">Select Team</label>
+          <select id="team-select" class="w-full border border-slate-300 rounded-lg p-2 bg-white text-black font-semibold backdrop-blur focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"></select>
+        </div>
+        <div>
+          <label class="block font-semibold mb-1 text-blue-100">Select Round</label>
+          <select id="round-select" class="w-full border border-slate-300 rounded-lg p-2 bg-white text-black font-semibold backdrop-blur focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"></select>
+        </div>
+        <div>
+          <label class="block font-semibold mb-1 text-blue-100">Select Topic</label>
+          <select id="topic-select" class="w-full border border-slate-300 rounded-lg p-2 bg-white text-black font-semibold backdrop-blur focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"></select>
+        </div>
+      </div>
+      <div class="flex gap-4 mt-4">
+        <button id="show-question" class="bg-blue-500/80 text-white px-6 py-2.5 rounded-lg hover:bg-blue-600/90 transition-all duration-200 backdrop-blur shadow-md border border-blue-400">Show Question</button>
+        <button id="next-question" class="bg-blue-400/70 text-white px-6 py-2.5 rounded-lg hover:bg-blue-500/80 transition-all duration-200 backdrop-blur shadow-md border border-blue-300">Next</button>
+        <button id="prev-question" class="bg-blue-400/70 text-white px-6 py-2.5 rounded-lg hover:bg-blue-500/80 transition-all duration-200 backdrop-blur shadow-md border border-blue-300">Previous</button>
+        <button id="toggle-loop" class="bg-blue-300/60 text-blue-900 px-6 py-2.5 rounded-lg hover:bg-blue-400/70 transition-all duration-200 backdrop-blur shadow-md border border-blue-200">Loop Round</button>
+        <button id="reset-scores" class="bg-red-400/70 text-white px-6 py-2.5 rounded-lg hover:bg-red-500/80 transition-all duration-200 backdrop-blur shadow-md border border-red-300">Reset Scores</button>
+      </div>
+      <div class="mt-4">
+        <label class="block font-semibold mb-1 text-blue-100">Timer</label>
+        <span id="timer" class="text-2xl font-bold text-red-400">00:00</span>
+      </div>
+      <div class="mt-4">
+        <label class="block font-semibold mb-1 text-blue-100">Manual Score Edit</label>
+        <div id="score-edit" class="flex gap-2"></div>
+      </div>
+    </div>
+    <div id="question-area" class="rounded-xl p-8 mb-6 glass-effect">
+      <div class="question-text"></div>
+      <div class="options-list"></div>
+    </div>
+  </div>
+  <div id="team-scores" class="flex flex-col gap-4 fixed right-4 top-8 z-50"></div>
+  <script src="/static/host.js"></script>
+</body>
+</html>

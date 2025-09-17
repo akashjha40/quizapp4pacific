@@ -1,0 +1,268 @@
+{
+  "teams": ["Alpha", "Bravo", "Charlie", "Delta"],
+  "rounds": [
+    {
+      "name": "Round 1",
+      "type": "topic",
+      "topics": [
+        {
+          "name": "Science",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "Which gas do plants use for photosynthesis?",
+                "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the smallest unit of matter?",
+                "options": ["Cell", "Atom", "Molecule", "Electron"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What is the largest planet in our solar system?",
+                "options": ["Mars", "Saturn", "Jupiter", "Neptune"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the chemical symbol for gold?",
+                "options": ["Ag", "Fe", "Cu", "Au"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is the process of water changing into vapor called?",
+                "options": ["Condensation", "Evaporation", "Precipitation", "Sublimation"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the hardest natural substance?",
+                "options": ["Gold", "Iron", "Diamond", "Granite"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "Which blood type is known as the universal donor?",
+                "options": ["A+", "B+", "AB+", "O-"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the largest organ in the human body?",
+                "options": ["Brain", "Heart", "Liver", "Skin"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        },
+        {
+          "name": "Maths",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "What is 15 × 15?",
+                "options": ["215", "225", "235", "245"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the square root of 144?",
+                "options": ["10", "11", "12", "13"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What is 7 × 8?",
+                "options": ["54", "56", "58", "60"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is 1/2 + 1/4?",
+                "options": ["2/6", "3/4", "3/6", "4/6"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is 25% of 200?",
+                "options": ["25", "40", "50", "75"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the next number in the sequence: 2, 4, 8, 16, ?",
+                "options": ["20", "24", "32", "36"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "What is 5² + 5³?",
+                "options": ["125", "150", "150", "175"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Simplify: (3 × 4) + (2 × 5)",
+                "options": ["22", "24", "26", "28"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Round 2",
+      "type": "multimedia",
+      "teamQuestions": {
+        "Alpha": [
+          {
+            "question": "Listen to this classical piece and identify the composer.",
+            "audio": "static/audio/mozart.mp3",
+            "options": ["Bach", "Mozart", "Beethoven", "Tchaikovsky"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Identify this famous painting.",
+            "image": "static/images/starry-night.jpg",
+            "options": ["The Scream", "Starry Night", "Mona Lisa", "The Persistence of Memory"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          }
+        ],
+        "Bravo": [
+          {
+            "question": "Name this famous landmark.",
+            "image": "static/images/eiffel.jpg",
+            "options": ["Big Ben", "Eiffel Tower", "Statue of Liberty", "Tower Bridge"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Identify this musical instrument's sound.",
+            "audio": "static/audio/violin.mp3",
+            "options": ["Violin", "Viola", "Cello", "Bass"],
+            "answer": 0,
+            "points": 15,
+            "timer": 30
+          }
+        ],
+        "Charlie": [
+          {
+            "question": "What animal makes this sound?",
+            "audio": "static/audio/whale.mp3",
+            "options": ["Dolphin", "Whale", "Seal", "Sea Lion"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Identify this famous scientist.",
+            "image": "static/images/einstein.jpg",
+            "options": ["Newton", "Einstein", "Darwin", "Tesla"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          }
+        ],
+        "Delta": [
+          {
+            "question": "Name this car brand from its sound.",
+            "audio": "static/audio/ferrari.mp3",
+            "options": ["Ferrari", "Lamborghini", "Porsche", "McLaren"],
+            "answer": 0,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Which planet is shown in this image?",
+            "image": "static/images/saturn.jpg",
+            "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          }
+        ]
+      }
+    },
+    {
+      "name": "Round 3",
+      "type": "common",
+      "questions": [
+        {
+          "question": "Who wrote the national anthem of India?",
+          "options": ["Rabindranath Tagore", "Bankim Chandra", "Sarojini Naidu", "Jawaharlal Nehru"],
+          "answer": 0,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "What is the capital of Australia?",
+          "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "What is the largest mammal in the world?",
+          "options": ["Elephant", "Blue Whale", "Giraffe", "Great White Shark"],
+          "answer": 1,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "Which planet is closest to the sun?",
+          "options": ["Venus", "Mars", "Mercury", "Earth"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "What is the main ingredient in guacamole?",
+          "options": ["Tomato", "Avocado", "Onion", "Lime"],
+          "answer": 1,
+          "points": 20,
+          "timer": 45
+        }
+      ]
+    }
+  ]
+}

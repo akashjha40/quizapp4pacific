@@ -1,0 +1,296 @@
+{
+  "teams": ["Alpha", "Bravo", "Charlie", "Delta"],
+  "rounds": [
+    {
+      "name": "Round 1",
+      "type": "topic",
+      "topics": [
+        {
+          "name": "Science",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "Which gas do plants use for photosynthesis?",
+                "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the smallest unit of matter?",
+                "options": ["Cell", "Atom", "Molecule", "Electron"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What is the largest planet in our solar system?",
+                "options": ["Mars", "Saturn", "Jupiter", "Neptune"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the chemical symbol for gold?",
+                "options": ["Ag", "Fe", "Cu", "Au"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is the process of water changing into vapor called?",
+                "options": ["Condensation", "Evaporation", "Precipitation", "Sublimation"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the hardest natural substance?",
+                "options": ["Gold", "Iron", "Diamond", "Granite"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "What type of energy does the sun provide?",
+                "options": ["Nuclear", "Solar", "Thermal", "Chemical"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the study of living things called?",
+                "options": ["Physics", "Biology", "Chemistry", "Geology"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        },
+        {
+          "name": "Maths",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "What is the square of 15?",
+                "options": ["215", "225", "235", "245"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is 1/4 of 100?",
+                "options": ["20", "25", "30", "35"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What is 13 x 13?",
+                "options": ["159", "169", "179", "189"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the cube root of 27?",
+                "options": ["9", "6", "3", "1"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is 75% of 200?",
+                "options": ["100", "125", "150", "175"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the value of π (pi) to 2 decimal places?",
+                "options": ["3.12", "3.14", "3.16", "3.18"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "What is the square root of 144?",
+                "options": ["10", "11", "12", "13"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is 40% of 150?",
+                "options": ["50", "60", "70", "80"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Round 2",
+      "type": "multimedia",
+      "teamQuestions": {
+        "Alpha": [
+          {
+            "question": "Listen to this classical music piece and identify the composer.",
+            "audio": "static/audio/alpha1.mp3",
+            "options": ["Mozart", "Beethoven", "Bach", "Tchaikovsky"],
+            "answer": 0,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Identify this famous painting.",
+            "image": "static/images/alpha1.jpg",
+            "options": ["Starry Night", "The Scream", "Mona Lisa", "The Persistence of Memory"],
+            "answer": 0,
+            "points": 15,
+            "timer": 30
+          }
+        ],
+        "Bravo": [
+          {
+            "question": "Listen to this bird call and identify the species.",
+            "audio": "static/audio/bravo1.mp3",
+            "options": ["Eagle", "Owl", "Parrot", "Falcon"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Identify this architectural wonder.",
+            "image": "static/images/bravo1.jpg",
+            "options": ["Taj Mahal", "Petra", "Colosseum", "Great Wall"],
+            "answer": 2,
+            "points": 15,
+            "timer": 30
+          }
+        ],
+        "Charlie": [
+          {
+            "question": "Listen to this instrument and identify it.",
+            "audio": "static/audio/charlie1.mp3",
+            "options": ["Piano", "Violin", "Guitar", "Flute"],
+            "answer": 1,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Name this famous landmark.",
+            "image": "static/images/charlie1.jpg",
+            "options": ["Eiffel Tower", "Big Ben", "Statue of Liberty", "Sydney Opera House"],
+            "answer": 3,
+            "points": 15,
+            "timer": 30
+          }
+        ],
+        "Delta": [
+          {
+            "question": "Identify this movie soundtrack.",
+            "audio": "static/audio/delta1.mp3",
+            "options": ["Star Wars", "Jurassic Park", "Harry Potter", "Lord of the Rings"],
+            "answer": 0,
+            "points": 15,
+            "timer": 30
+          },
+          {
+            "question": "Name this famous scientist.",
+            "image": "static/images/delta1.jpg",
+            "options": ["Einstein", "Newton", "Tesla", "Darwin"],
+            "answer": 0,
+            "points": 15,
+            "timer": 30
+          }
+        ]
+      }
+    },
+    {
+      "name": "Round 3",
+      "type": "common",
+      "questions": [
+        {
+          "question": "What is the capital of Australia?",
+          "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "What is the largest mammal in the world?",
+          "options": ["Elephant", "Blue Whale", "Giraffe", "Great White Shark"],
+          "answer": 1,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "Which planet is closest to the sun?",
+          "options": ["Venus", "Mars", "Mercury", "Earth"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "What is the main ingredient in guacamole?",
+          "options": ["Tomato", "Avocado", "Onion", "Lime"],
+          "answer": 1,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "How many strings does a standard violin have?",
+          "options": ["4", "5", "6", "7"],
+          "answer": 0,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "Which country is famous for its tulips and windmills?",
+          "options": ["Germany", "France", "Netherlands", "Belgium"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "What is the hardest natural substance on Earth?",
+          "options": ["Gold", "Iron", "Diamond", "Quartz"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "Who is the author of the Harry Potter series?",
+          "options": ["J.R.R. Tolkien", "George R.R. Martin", "J.K. Rowling", "Stephen King"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+        {
+          "question": "What is the most spoken language in the world?",
+          "options": ["Spanish", "English", "Mandarin Chinese", "Hindi"],
+          "answer": 2,
+          "points": 20,
+          "timer": 45
+        }
+      ]
+    }
+  ]
+}
