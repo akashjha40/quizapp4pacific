@@ -1,0 +1,317 @@
+{
+  "teams": ["Alpha", "Bravo", "Charlie", "Delta"],
+  "rounds": [
+    {
+      "name": "Round 1",
+      "type": "topic",
+      "topics": [
+        {
+          "name": "Arts",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "Which art movement is characterized by bold colors and distorted forms?",
+                "options": ["Impressionism", "Expressionism", "Realism", "Minimalism"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who painted 'The Night Watch'?",
+                "options": ["Johannes Vermeer", "Rembrandt", "Frans Hals", "Jan Steen"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the art of designing and arranging type called?",
+                "options": ["Calligraphy", "Typography", "Lithography", "Serigraphy"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which movement emphasized the use of only primary colors and geometric shapes?",
+                "options": ["De Stijl", "Art Nouveau", "Baroque", "Rococo"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who created the sculpture 'The Thinker'?",
+                "options": ["Auguste Rodin", "Henry Moore", "Alberto Giacometti", "Constantin Brâncuși"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "Which color is created by mixing yellow and blue?",
+                "options": ["Orange", "Purple", "Green", "Brown"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is fresco painting done on?",
+                "options": ["Canvas", "Wood", "Wet plaster", "Glass"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who painted 'The Last Supper'?",
+                "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Botticelli"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the primary difference between abstract and figurative art?",
+                "options": ["Color use", "Subject recognition", "Size", "Medium"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which artist is known for painting water lilies?",
+                "options": ["Vincent van Gogh", "Claude Monet", "Paul Cézanne", "Pierre-Auguste Renoir"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What ancient Roman city was preserved by the eruption of Mount Vesuvius?",
+                "options": ["Athens", "Rome", "Pompeii", "Syracuse"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who designed the Eiffel Tower?",
+                "options": ["Gustave Eiffel", "Le Corbusier", "Frank Lloyd Wright", "Walter Gropius"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is a self-portrait of an artist called?",
+                "options": ["Portrait", "Landscape", "Self-portrait", "Still life"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which art movement began in the 1960s and used everyday objects?",
+                "options": ["Pop Art", "Surrealism", "Dadaism", "Futurism"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the technique of creating images by arranging small pieces of colored glass or stone called?",
+                "options": ["Fresco", "Mosaic", "Collage", "Intaglio"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "Who painted 'The Birth of Venus'?",
+                "options": ["Botticelli", "Leonardo da Vinci", "Michelangelo", "Raphael"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the name for a painting or drawing of inanimate objects?",
+                "options": ["Portrait", "Landscape", "Still life", "Abstract"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which artist is famous for his geometric abstract paintings using squares and rectangles?",
+                "options": ["Wassily Kandinsky", "Piet Mondrian", "Paul Klee", "Joan Miró"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the art of cutting and pasting materials to create a picture called?",
+                "options": ["Montage", "Collage", "Decoupage", "Assemblage"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which ancient civilization is known for building pyramids?",
+                "options": ["Greek", "Roman", "Egyptian", "Persian"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        },
+        {
+          "name": "Science",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "What is the process of a solid changing directly to a gas called?",
+                "options": ["Melting", "Sublimation", "Evaporation", "Condensation"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which planet is known as the 'Evening Star'?",
+                "options": ["Mars", "Venus", "Mercury", "Jupiter"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the smallest bone in the human body?",
+                "options": ["Stapes", "Femur", "Radius", "Ulna"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which animal has the longest lifespan?",
+                "options": ["Elephant", "Tortoise", "Whale", "Jellyfish"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the study of weather called?",
+                "options": ["Geology", "Meteorology", "Hydrology", "Climatology"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What is the largest type of whale?",
+                "options": ["Sperm Whale", "Blue Whale", "Humpback Whale", "Killer Whale"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which gas is most abundant in Earth's atmosphere?",
+                "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the atomic number of carbon?",
+                "options": ["4", "6", "8", "12"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which vitamin is essential for blood clotting?",
+                "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the unit of electrical current?",
+                "options": ["Volt", "Watt", "Ampere", "Ohm"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is the process of converting a gas to a liquid called?",
+                "options": ["Evaporation", "Condensation", "Sublimation", "Freezing"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which element has the symbol 'Na'?",
+                "options": ["Nitrogen", "Neon", "Sodium", "Nickel"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the study of insects called?",
+                "options": ["Zoology", "Entomology", "Biology", "Ecology"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which planet has the Great Red Spot?",
+                "options": ["Mars", "Venus", "Saturn", "Jupiter"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the basic unit of life?",
+                "options": ["Cell", "Atom", "Molecule", "Tissue"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "What is the study of stars called?",
+                "options": ["Astronomy", "Astrology", "Cosmology", "Astrophysics"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which element is a noble gas?",
+                "options": ["Nitrogen", "Helium", "Hydrogen", "Carbon"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the largest desert in the world?",
+                "options": ["Sahara", "Antarctic", "Arctic", "Gobi"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which organ is responsible for producing insulin?",
+                "options": ["Liver", "Kidney", "Pancreas", "Stomach"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the chemical symbol for silver?",
+                "options": ["Si", "Ag", "Au", "Sr"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

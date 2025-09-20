@@ -310,182 +310,118 @@
               }
             ]
           }
+        },
+        {
+          "name": "Arts",
+          "questions": [
+            {
+              "question": "Who painted the Mona Lisa?",
+              "options": ["Van Gogh", "Leonardo da Vinci", "Picasso", "Monet"],
+              "answer": 1,
+              "points": 10,
+              "timer": 30
+            },
+            {
+              "question": "What is the primary color trio?",
+              "options": ["Red, Green, Blue", "Red, Yellow, Blue", "Orange, Green, Violet", "Black, White, Gray"],
+              "answer": 1,
+              "points": 10,
+              "timer": 30
+            },
+            {
+              "question": "Which art movement is Salvador Dalí associated with?",
+              "options": ["Cubism", "Surrealism", "Impressionism", "Abstract Expressionism"],
+              "answer": 1,
+              "points": 10,
+              "timer": 30
+            },
+            {
+              "question": "What material is the Statue of Liberty made of?",
+              "options": ["Steel", "Bronze", "Copper", "Gold"],
+              "answer": 2,
+              "points": 10,
+              "timer": 30
+            },
+            {
+              "question": "Which Dutch artist painted 'The Starry Night'?",
+              "options": ["Rembrandt", "Vermeer", "Vincent van Gogh", "M.C. Escher"],
+              "answer": 2,
+              "points": 10,
+              "timer": 30
+            }
+          ]
         }
       ]
     },
     {
       "name": "Round 2",
       "type": "multimedia",
-      "teamQuestions": {
-        "Alpha": [
-          {
-            "question": "Listen to this classical music piece and identify the composer.",
-            "audio": "static/audio/alpha1.mp3",
-            "options": ["Mozart", "Beethoven", "Bach", "Tchaikovsky"],
-            "answer": 0,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this famous painting.",
-            "image": "static/images/alpha1.jpg",
-            "options": ["Starry Night", "The Scream", "Mona Lisa", "The Persistence of Memory"],
-            "answer": 0,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this animal sound.",
-            "audio": "static/audio/alpha2.mp3",
-            "options": ["Cat", "Dog", "Cow", "Horse"],
-            "answer": 1,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Name this monument.",
-            "image": "static/images/alpha2.jpg",
-            "options": ["Pyramids", "Colosseum", "Petra", "Machu Picchu"],
-            "answer": 3,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this instrument sound.",
-            "audio": "static/audio/alpha3.mp3",
-            "options": ["Flute", "Guitar", "Drums", "Piano"],
-            "answer": 0,
-            "points": 15,
-            "timer": 30
-          }
-        ],
-        "Bravo": [
-          {
-            "question": "Listen to this bird call and identify the species.",
-            "audio": "static/audio/bravo1.mp3",
-            "options": ["Eagle", "Owl", "Parrot", "Falcon"],
-            "answer": 1,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this architectural wonder.",
-            "image": "static/images/bravo1.jpg",
-            "options": ["Taj Mahal", "Petra", "Colosseum", "Great Wall"],
-            "answer": 2,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this country from the landmark.",
-            "image": "static/images/bravo2.jpg",
-            "options": ["Italy", "France", "India", "China"],
-            "answer": 2,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Name this instrument by sound.",
-            "audio": "static/audio/bravo2.mp3",
-            "options": ["Cello", "Saxophone", "Trumpet", "Violin"],
-            "answer": 2,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this painting.",
-            "image": "static/images/bravo3.jpg",
-            "options": ["The Kiss", "Girl with a Pearl Earring", "The Night Watch", "American Gothic"],
-            "answer": 1,
-            "points": 15,
-            "timer": 30
-          }
-        ],
-        "Charlie": [
-          {
-            "question": "Listen to this instrument and identify it.",
-            "audio": "static/audio/charlie1.mp3",
-            "options": ["Piano", "Violin", "Guitar", "Flute"],
-            "answer": 1,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Name this famous landmark.",
-            "image": "static/images/charlie1.jpg",
-            "options": ["Eiffel Tower", "Big Ben", "Statue of Liberty", "Sydney Opera House"],
-            "answer": 3,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this animal by sound.",
-            "audio": "static/audio/charlie2.mp3",
-            "options": ["Lion", "Elephant", "Whale", "Dolphin"],
-            "answer": 3,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Which city is shown in the image?",
-            "image": "static/images/charlie2.jpg",
-            "options": ["New York", "Paris", "Tokyo", "Dubai"],
-            "answer": 1,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify the sport by the sound.",
-            "audio": "static/audio/charlie3.mp3",
-            "options": ["Tennis", "Cricket", "Basketball", "Football"],
-            "answer": 0,
-            "points": 15,
-            "timer": 30
-          }
-        ],
-        "Delta": [
-          {
-            "question": "Identify this movie soundtrack.",
-            "audio": "static/audio/delta1.mp3",
-            "options": ["Star Wars", "Jurassic Park", "Harry Potter", "Lord of the Rings"],
-            "answer": 0,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Name this famous scientist.",
-            "image": "static/images/delta1.jpg",
-            "options": ["Einstein", "Newton", "Darwin", "Tesla"],
-            "answer": 0,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this planet image.",
-            "image": "static/images/delta2.jpg",
-            "options": ["Mars", "Jupiter", "Saturn", "Neptune"],
-            "answer": 2,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Name this composer by audio.",
-            "audio": "static/audio/delta2.mp3",
-            "options": ["Bach", "Chopin", "Vivaldi", "Mozart"],
-            "answer": 1,
-            "points": 15,
-            "timer": 30
-          },
-          {
-            "question": "Identify this historical monument.",
-            "image": "static/images/delta3.jpg",
-            "options": ["Great Wall", "Colosseum", "Petra", "Stonehenge"],
-            "answer": 0,
-            "points": 15,
-            "timer": 30
-          }
-        ]
-      }
+      "questions": [
+        {
+          "question": "Listen to this classical music piece and identify the composer.",
+          "audio": "static/audio/alpha1.mp3",
+          "options": ["Mozart", "Beethoven", "Bach", "Tchaikovsky"],
+          "answer": 0,
+          "points": 15,
+          "timer": 30
+        },
+        {
+          "question": "Listen to this bird call and identify the species.",
+          "audio": "static/audio/bravo1.mp3",
+          "options": ["Eagle", "Owl", "Parrot", "Falcon"],
+          "answer": 1,
+          "points": 15,
+          "timer": 30
+        },
+        {
+          "question": "Listen to this instrument and identify it.",
+          "audio": "static/audio/charlie1.mp3",
+          "options": ["Piano", "Violin", "Guitar", "Flute"],
+          "answer": 1,
+          "points": 15,
+          "timer": 30
+        },
+        {
+          "question": "Identify this movie soundtrack.",
+          "audio": "static/audio/delta1.mp3",
+          "options": ["Star Wars", "Jurassic Park", "Harry Potter", "Lord of the Rings"],
+          "answer": 0,
+          "points": 15,
+          "timer": 30
+        },
+        {
+          "question": "Identify this famous painting.",
+          "image": "static/Images/Q1image Starry night.jpg",
+          "options": ["Starry Night", "The Scream", "Mona Lisa", "The Persistence of Memory"],
+          "answer": 0,
+          "points": 15,
+          "timer": 30
+        },
+        {
+          "question": "Identify this architectural wonder.",
+          "image": "static/images/bravo1.jpg",
+          "options": ["Taj Mahal", "Petra", "Colosseum", "Great Wall"],
+          "answer": 2,
+          "points": 15,
+          "timer": 30
+        },
+        {
+          "question": "Name this famous landmark.",
+          "image": "static/images/charlie1.jpg",
+          "options": ["Eiffel Tower", "Big Ben", "Statue of Liberty", "Sydney Opera House"],
+          "answer": 3,
+          "points": 15,
+          "timer": 30
+        },
+        {
+          "question": "Name this famous scientist.",
+          "image": "static/images/delta1.jpg",
+          "options": ["Einstein", "Newton", "Darwin", "Tesla"],
+          "answer": 0,
+          "points": 15,
+          "timer": 30
+        }
+      ]
     },
     {
       "name": "Round 3",
@@ -551,6 +487,13 @@
           "question": "What is the most spoken language in the world?",
           "options": ["Spanish", "English", "Mandarin Chinese", "Hindi"],
           "answer": 2,
+          "points": 20,
+          "timer": 45
+        },
+		{
+          "question": "Which is the largest country in the world by area?",
+          "options": ["Canada", "China", "USA", "Russia"],
+          "answer": 3,
           "points": 20,
           "timer": 45
         }

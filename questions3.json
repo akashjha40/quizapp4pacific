@@ -1,0 +1,317 @@
+{
+  "teams": ["Alpha", "Bravo", "Charlie", "Delta"],
+  "rounds": [
+    {
+      "name": "Round 1",
+      "type": "topic",
+      "topics": [
+        {
+          "name": "Arts",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "Which famous Spanish architect designed the Sagrada Familia?",
+                "options": ["Antoni Gaudí", "Santiago Calatrava", "Rafael Moneo", "Ricardo Bofill"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the name of Leonardo da Vinci's famous drawing of human proportions?",
+                "options": ["The Last Supper", "Mona Lisa", "Vitruvian Man", "Lady with an Ermine"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which ancient civilization is known for creating the terracotta army?",
+                "options": ["Roman", "Greek", "Chinese", "Egyptian"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What art movement did René Magritte belong to?",
+                "options": ["Impressionism", "Surrealism", "Cubism", "Expressionism"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which painting technique creates an illusion of depth on a flat surface?",
+                "options": ["Perspective", "Pointillism", "Impasto", "Glazing"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "Who designed the iconic 'Hope' poster for Barack Obama's campaign?",
+                "options": ["Shepard Fairey", "Banksy", "Jeff Koons", "Damien Hirst"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the name of Frida Kahlo's husband, also a famous artist?",
+                "options": ["Pablo Picasso", "Salvador Dalí", "Diego Rivera", "Henri Matisse"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which art movement emphasized dreams and the unconscious mind?",
+                "options": ["Realism", "Surrealism", "Impressionism", "Abstract Expressionism"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the primary pigment used in traditional Chinese ink painting?",
+                "options": ["Carbon black", "Iron oxide", "Indigo", "Vermilion"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who painted 'American Gothic'?",
+                "options": ["Edward Hopper", "Grant Wood", "Georgia O'Keeffe", "Norman Rockwell"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is the name of Picasso's first major painting style?",
+                "options": ["Blue Period", "Rose Period", "Cubism", "Surrealism"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which Renaissance artist was known as the 'Divine One'?",
+                "options": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What type of paint dries by oxidation?",
+                "options": ["Acrylic", "Watercolor", "Oil", "Tempera"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who is known for painting Campbell's Soup Cans?",
+                "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Jean-Michel Basquiat"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the main ingredient in bronze?",
+                "options": ["Iron", "Copper", "Gold", "Silver"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "Which artist cut off part of his ear?",
+                "options": ["Paul Gauguin", "Vincent van Gogh", "Edgar Degas", "Claude Monet"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the term for a three-dimensional work of art?",
+                "options": ["Relief", "Sculpture", "Installation", "Mobile"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who painted the ceiling of the Sistine Chapel?",
+                "options": ["Leonardo da Vinci", "Raphael", "Michelangelo", "Botticelli"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What style of architecture features pointed arches and flying buttresses?",
+                "options": ["Gothic", "Baroque", "Renaissance", "Modern"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which color is considered a tertiary color?",
+                "options": ["Blue", "Green", "Yellow", "Blue-green"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        },
+        {
+          "name": "Science",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "What is the most abundant element in the universe?",
+                "options": ["Helium", "Oxygen", "Carbon", "Hydrogen"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which planet has rings made primarily of ice particles?",
+                "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the study of heredity called?",
+                "options": ["Biology", "Genetics", "Chemistry", "Physics"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the largest species of shark?",
+                "options": ["Great White", "Whale Shark", "Hammerhead", "Tiger Shark"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which element is essential for all living organisms?",
+                "options": ["Carbon", "Gold", "Silver", "Iron"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What is the process of converting sugar into energy called?",
+                "options": ["Photosynthesis", "Respiration", "Digestion", "Fermentation"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which planet is closest to the Sun?",
+                "options": ["Venus", "Earth", "Mars", "Mercury"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the smallest unit of life?",
+                "options": ["Atom", "Cell", "Molecule", "Tissue"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the study of earthquakes called?",
+                "options": ["Geology", "Seismology", "Geography", "Meteorology"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which blood vessels carry blood away from the heart?",
+                "options": ["Veins", "Capillaries", "Arteries", "Venules"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is the largest organ in the human body?",
+                "options": ["Brain", "Heart", "Liver", "Skin"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which gas do plants release during photosynthesis?",
+                "options": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the speed of sound in air?",
+                "options": ["343 m/s", "299 m/s", "400 m/s", "500 m/s"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which element has the atomic number 1?",
+                "options": ["Helium", "Carbon", "Hydrogen", "Oxygen"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the study of plants called?",
+                "options": ["Zoology", "Botany", "Biology", "Ecology"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "What is the largest planet in our solar system?",
+                "options": ["Saturn", "Jupiter", "Neptune", "Uranus"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which scientist discovered gravity?",
+                "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Charles Darwin"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the chemical symbol for gold?",
+                "options": ["Ag", "Fe", "Cu", "Au"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What type of rock is formed by intense heat and pressure?",
+                "options": ["Igneous", "Sedimentary", "Metamorphic", "Composite"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which part of the cell contains genetic material?",
+                "options": ["Mitochondria", "Nucleus", "Ribosome", "Golgi body"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

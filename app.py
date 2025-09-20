@@ -10,6 +10,10 @@ app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'your_very_secret_key')
 DB_PATH = os.environ.get('DB_PATH', os.path.join(os.path.dirname(__file__), 'scores.db'))
 
+# Enable debug mode and logging
+app.debug = True
+app.logger.setLevel('DEBUG')
+
 # --- Helper Functions ---
 def get_teams():
     """Loads team names from questions.json, with a fallback to default teams."""
@@ -39,6 +43,22 @@ def init_db():
         traceback.print_exc()
 
 # --- API Endpoints ---
+@app.route('/api/questions')
+def get_questions():
+    """Serve the questions data from questions.json file."""
+    try:
+        print("Reading questions.json...")  # Debug log
+        with open('questions.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            print(f"Successfully read questions.json. Found {len(data.get('rounds', []))} rounds")  # Debug log
+            return jsonify(data)
+    except FileNotFoundError as e:
+        print(f"Error: questions.json not found: {e}")  # Debug log
+        return jsonify({"error": "Questions file not found"}), 404
+    except json.JSONDecodeError as e:
+        print(f"Error: Invalid JSON in questions.json: {e}")  # Debug log
+        return jsonify({"error": "Invalid JSON file"}), 500
+
 @app.route('/api/scores', methods=['GET', 'POST'])
 def api_scores():
     """API to get all scores or update a single team's score."""
@@ -96,9 +116,9 @@ def api_reset_scores():
         traceback.print_exc()
         return jsonify({'status': 'error', 'message': 'Failed to reset scores on server'}), 500
 
-@app.route('/api/questions', methods=['GET', 'POST'])
-def api_questions():
-    """API to get or save the questions file."""
+@app.route('/api/questions/save', methods=['POST'])
+def api_save_questions():
+    """API to save the questions file."""
     if request.method == 'POST':
         try:
             data = request.json
@@ -132,6 +152,9 @@ def api_rounds():
     except (FileNotFoundError, json.JSONDecodeError):
         return jsonify([])
 
+@app.route('/api/rounds')
+    # ...existing code...
+
 # --- HTML Routes ---
 @app.route('/')
 def index():
@@ -145,11 +168,30 @@ def host_dashboard():
 def public_view():
     return render_template('public.html')
 
+@app.route('/debug/questions')
+def debug_questions():
+    """Debug endpoint to check questions.json content."""
+    try:
+        with open('questions.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return jsonify({
+                "fileExists": True,
+                "validJson": True,
+                "rounds": len(data.get('rounds', [])),
+                "teams": data.get('teams', []),
+                "firstRound": data.get('rounds', [])[0] if data.get('rounds') else None
+            })
+    except FileNotFoundError:
+        return jsonify({"fileExists": False, "error": "File not found"})
+    except json.JSONDecodeError as e:
+        return jsonify({"fileExists": True, "validJson": False, "error": str(e)})
+
 # --- Main Execution ---
 if __name__ == '__main__':
+    import os
+    print(f"[DEBUG] Current working directory: {os.getcwd()}")
+    print(f"[DEBUG] Flask template folder: {app.template_folder}")
     init_db()  # Initialize DB on startup
     host = os.environ.get('HOST', '0.0.0.0')
     port = int(os.environ.get('PORT', '5000'))
-    debug_env = os.environ.get('FLASK_DEBUG', '0')
-    debug = True if str(debug_env).lower() in ('1', 'true', 'yes') else False
-    app.run(host=host, port=port, debug=debug)
+    app.run(host=host, port=port, debug=True)

@@ -1,0 +1,317 @@
+{
+  "teams": ["Alpha", "Bravo", "Charlie", "Delta"],
+  "rounds": [
+    {
+      "name": "Round 1",
+      "type": "topic",
+      "topics": [
+        {
+          "name": "Arts",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "Who painted 'The Scream'?",
+                "options": ["Edvard Munch", "Gustav Klimt", "Paul Cézanne", "Auguste Renoir"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which art movement began in the 1960s and emphasized optical illusions?",
+                "options": ["Op Art", "Pop Art", "Minimalism", "Conceptual Art"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the traditional Japanese art of paper folding called?",
+                "options": ["Ikebana", "Origami", "Kintsugi", "Sumi-e"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which color theory term describes colors opposite each other on the color wheel?",
+                "options": ["Analogous", "Complementary", "Monochromatic", "Triadic"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who painted 'Girl with a Pearl Earring'?",
+                "options": ["Rembrandt", "Johannes Vermeer", "Frans Hals", "Jan van Eyck"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What art movement did Wassily Kandinsky pioneer?",
+                "options": ["Abstract Art", "Fauvism", "Dadaism", "Suprematism"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which material is NOT typically used in sculpture?",
+                "options": ["Bronze", "Marble", "Watercolor", "Clay"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the art of beautiful handwriting called?",
+                "options": ["Typography", "Calligraphy", "Lithography", "Pictography"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which artist is known for drip painting?",
+                "options": ["Willem de Kooning", "Mark Rothko", "Jackson Pollock", "Franz Kline"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is a triptych?",
+                "options": ["A three-paneled artwork", "A painting technique", "A type of brush", "A color scheme"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "Which architectural style features flying buttresses?",
+                "options": ["Baroque", "Gothic", "Renaissance", "Modern"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the primary subject of Monet's Water Lilies series?",
+                "options": ["His garden in Giverny", "The Seine River", "French countryside", "Paris streets"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which medium uses egg yolk as a binder?",
+                "options": ["Oil paint", "Acrylic", "Tempera", "Watercolor"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is sfumato?",
+                "options": ["A painting tool", "A blending technique", "A type of canvas", "A color palette"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Who designed the Guggenheim Museum in Bilbao?",
+                "options": ["Frank Gehry", "Zaha Hadid", "Norman Foster", "I.M. Pei"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "Which movement emphasized the representation of modern life?",
+                "options": ["Romanticism", "Impressionism", "Medieval Art", "Byzantine Art"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the golden ratio approximately equal to?",
+                "options": ["1.414", "1.618", "2.236", "1.732"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which artist is known for their soup can paintings?",
+                "options": ["Roy Lichtenstein", "Andy Warhol", "Keith Haring", "Jean-Michel Basquiat"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is a pentimento in painting?",
+                "options": ["A type of brush stroke", "An underlying image", "A color mixture", "A canvas preparation"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which movement rejected traditional artistic values?",
+                "options": ["Dada", "Realism", "Neoclassicism", "Baroque"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        },
+        {
+          "name": "Science",
+          "teamQuestions": {
+            "Alpha": [
+              {
+                "question": "What is the hardest natural substance on Earth?",
+                "options": ["Gold", "Iron", "Diamond", "Granite"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which planet has the most moons?",
+                "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the speed of light in miles per second?",
+                "options": ["186,282", "156,282", "196,282", "176,282"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the largest organ in the human body?",
+                "options": ["Heart", "Brain", "Liver", "Skin"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which element has the chemical symbol 'Fe'?",
+                "options": ["Iron", "Gold", "Silver", "Copper"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Bravo": [
+              {
+                "question": "What type of energy does a moving object have?",
+                "options": ["Potential", "Kinetic", "Thermal", "Chemical"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which blood type is known as the universal donor?",
+                "options": ["A+", "B-", "O-", "AB+"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the smallest bone in the human body?",
+                "options": ["Stapes", "Femur", "Radius", "Tibia"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which gas makes up the majority of Earth's atmosphere?",
+                "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the process by which plants make their own food?",
+                "options": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Charlie": [
+              {
+                "question": "What is the study of fossils called?",
+                "options": ["Archaeology", "Paleontology", "Geology", "Biology"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which particle has a negative charge?",
+                "options": ["Proton", "Neutron", "Electron", "Positron"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the chemical formula for water?",
+                "options": ["CO2", "H2O", "O2", "N2"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which vitamin is produced when skin is exposed to sunlight?",
+                "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+                "answer": 3,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the unit of electrical resistance?",
+                "options": ["Ohm", "Watt", "Volt", "Ampere"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              }
+            ],
+            "Delta": [
+              {
+                "question": "What is the powerhouse of the cell?",
+                "options": ["Nucleus", "Mitochondria", "Golgi body", "Ribosome"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which planet is known as the Red Planet?",
+                "options": ["Venus", "Jupiter", "Mars", "Mercury"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What is the study of weather called?",
+                "options": ["Meteorology", "Geology", "Biology", "Ecology"],
+                "answer": 0,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "Which metal is liquid at room temperature?",
+                "options": ["Lead", "Mercury", "Iron", "Copper"],
+                "answer": 1,
+                "points": 10,
+                "timer": 30
+              },
+              {
+                "question": "What force pulls objects towards Earth's center?",
+                "options": ["Magnetic", "Electric", "Gravity", "Nuclear"],
+                "answer": 2,
+                "points": 10,
+                "timer": 30
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
